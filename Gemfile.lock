@@ -1,0 +1,44 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (7.0.2.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    byebug (11.1.3)
+    childprocess (4.1.0)
+    concurrent-ruby (1.1.9)
+    dotenv (2.7.6)
+    holiday_jp (0.8.1)
+    i18n (1.10.0)
+      concurrent-ruby (~> 1.0)
+    minitest (5.15.0)
+    nokogiri (1.13.3-x86_64-darwin)
+      racc (~> 1.4)
+    racc (1.6.0)
+    rexml (3.2.5)
+    rubyzip (2.3.2)
+    selenium-webdriver (4.1.0)
+      childprocess (>= 0.5, < 5.0)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    webdrivers (5.0.0)
+      nokogiri (~> 1.6)
+      rubyzip (>= 1.3.0)
+      selenium-webdriver (~> 4.0)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  activesupport
+  byebug
+  dotenv
+  holiday_jp
+  webdrivers (~> 5.0)
+
+BUNDLED WITH
+   2.3.3
